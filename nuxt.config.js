@@ -42,6 +42,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    dir: 'dist'
   },
 
   aixos: {
@@ -53,15 +54,11 @@ export default {
     pathRewrite: {'^/api/':''} 
     // '/api': 'https://openapi.naver.com/v1/search/movie.json?query=s%EC%A3%BC%EC%8B%9D&display=10&start=1&genre=1',
     
-    },}
+    },},
 
-  // module.exports : {
-  //   devServer : {
-  //         proxy: {
-  //           'https://openapi.naver.com/v1/search/movie.json?query=%EC%82%AC%EB%9E%91%0D%0A&display=10&start=1&genre=18s' : {
-  //             target: 'http://127.0.0.1:12010'
-  //           }
-  //         }
-  //       }
+  // generate: {
+  //   dir: 'dist'
+
   // }
+  buildDir: 'dist'
 }
