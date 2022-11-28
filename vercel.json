@@ -1,19 +1,7 @@
 {
-    "builds": [
-      {
-        "src": "nuxt.config.js",
-        "use": "@nuxtjs/vercel-builder",
-        "config": {}
-      }
-    ],
-
     "functions": {
         "index.js": {
             "memory": 3008,
             "maxDuration": 10
-        }
-    }
-    
-
-
-  }
+}
+    }}
