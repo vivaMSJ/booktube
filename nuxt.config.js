@@ -1,6 +1,11 @@
 export default {
   target: 'server',
 
+  server: {
+    host: '0.0.0.0',
+    port: 3000
+  },
+
   head: {
     title: 'testproject',
     htmlAttrs: {
@@ -46,8 +51,7 @@ export default {
   proxy: {
     '/api/': { 
       target: 'https://openapi.naver.com/v1/search/movie.json',
-      pathRewrite: {'^/api/':''} 
+      pathRewrite: {'^/api/':''},   
     },
   },
-
 }
