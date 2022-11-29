@@ -53,5 +53,10 @@ export default {
       target: 'https://openapi.naver.com/v1/search/movie.json',
       pathRewrite: {'^/api/':''},   
     },
+
+    '/api2/': {
+      target: 'https://www.googleapis.com/youtube/v3/videos',
+      pathRewrite: {'^/api2/':''},
+    },
   },
 }

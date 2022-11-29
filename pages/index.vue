@@ -70,14 +70,14 @@ export default {
 
 .category {
   width: 100%;
-  height: 25px;
+  height: 30px;
   background-color: rgb(30, 30, 30);
   
 }
 
 .cate-list {
   display: flex;
-  height: 25px;
+  height: 28px;
   padding-left: 0;
   white-space: nowrap;
   overflow-x: scroll;
@@ -102,7 +102,7 @@ export default {
 
 .cate-list li {
   margin: 0 2px 0 2px;
-  padding: 3px 3px 0 3px;
+  padding: 4px 3px 0 3px;
   border: 1px solid gray;
   border-radius: 10%;
   font-size: 1rem;

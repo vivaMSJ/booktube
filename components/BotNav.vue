@@ -28,6 +28,7 @@ export default {
     height: 50px;
     padding-left: 5px;
     padding-right: 5px;
+    padding-top : 10px;
 }
 
 .uiImage {
@@ -36,8 +37,8 @@ export default {
 }
 
 .uiImageCenter {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     
 }
 </style>
